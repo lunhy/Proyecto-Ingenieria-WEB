@@ -1,0 +1,21 @@
+/** Barra **/
+body.index {
+    height: 100vh;
+}
+.barra {
+    background-color: #455A64;
+    padding: 1rem;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.barra h1 {
+    color: white;
+    margin:0;
+    font-size: 1.4rem;
+}
+.barra a {
+    color: white;
+    text-decoration: none;
+}

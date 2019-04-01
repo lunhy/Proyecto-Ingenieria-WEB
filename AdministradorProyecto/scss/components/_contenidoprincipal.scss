@@ -1,0 +1,33 @@
+/** Contenido Principal */
+.contenedor {
+    display: flex;
+    height: calc( 100% - 60px);
+}
+.contenido-principal {
+    flex: 1;
+    padding: 1rem;
+    /* overflow: scroll; */
+}
+.contenido-principal h1,
+.contenido-principal h2 {
+    text-align: center;
+}
+.contenido-principal h1 {
+    font-size: 1.8rem;
+}
+.contenido-principal h2 {
+    font-size: 1.4rem;
+    margin-top: 2rem;
+}
+.contenido-principal h1 span {
+    font-weight: 400;
+}
+.agregar-tarea {
+    max-width: 800px;
+    width: 90%;
+    background-color: #607D8B;
+    margin: 0 auto;
+    padding: 2rem;
+    color: white;
+    transition: background-color .5s ease-in-out;
+}

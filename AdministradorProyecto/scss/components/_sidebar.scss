@@ -1,0 +1,47 @@
+/*** sidebar**/
+.contenedor-proyectos {
+    min-height: 100vh;
+    max-width: 300px;
+    background-color: #607D8B;
+    padding-top: 1rem;
+    form.modal-proyecto{
+        background: black;
+    }
+}
+.panel {
+    padding: 1rem;
+    margin: 1rem;
+}
+.panel a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.panel h2 {
+    color: #FDD835;
+    font-weight: 900;
+    text-align: center;
+    font-size: 2rem;
+    margin: 0;
+}
+
+.crear-proyecto i {
+    margin-left: 1rem;
+}
+.crear-proyecto a {
+    color: #455A64;
+}
+
+.lista-proyectos ul{
+    list-style: none;
+    padding: 1.5rem 0 0 0;
+    margin: 0;
+}
+.lista-proyectos ul li {
+    margin-bottom: 1rem;
+}
+.lista-proyectos ul li a:hover {
+    color: #FDD835;
+}
+
+
